@@ -5,7 +5,7 @@ def connect():
     conn = psycopg2.connect(
         dbname="pet_care", 
         user="charity", 
-        password="lola@123", 
+        password="Lola@123", 
         host="localhost", 
         port="5432"
     )

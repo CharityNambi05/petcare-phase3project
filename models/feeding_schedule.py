@@ -1,3 +1,5 @@
+from db import connect
+
 class FeedingSchedule:
     def __init__(self, pet_id, feeding_time, food_type):
         self.pet_id = pet_id

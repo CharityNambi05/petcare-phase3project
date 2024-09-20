@@ -1,3 +1,6 @@
+from db import connect
+from psycopg2 import sql
+
 class Pet:
     def __init__(self, name, species, breed, age, owner_name):
         self.name = name

@@ -1,3 +1,5 @@
+from db import connect
+
 class MedicalRecord:
     def __init__(self, pet_id, record_date, notes):
         self.pet_id = pet_id

@@ -1,3 +1,5 @@
+from db import connect
+
 class Appointment:
     def __init__(self, pet_id, appointment_date, description):
         self.pet_id = pet_id
